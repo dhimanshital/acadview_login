@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en">
+    <head><title>Welcome to Login page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 body {font-family: Arial, Helvetica, sans-serif;}
 form {border: 3px solid #f1f1f1;}
@@ -41,7 +41,7 @@ button:hover {
 }
 
 img.avatar {
-    width: 40%;
+    width: 20%;
     border-radius: 50%;
 }
 
@@ -64,16 +64,16 @@ span.psw {
        width: 100%;
     }
 }
-</style>
-</head>
-<body>
-
-<h2>Login Form</h2>
-
-<form action="/action_page.php">
+</style></head>
+    <body>
+<?php
+    echo "<h1>Hello, Welcome to this website.</h1><br/>";
+        echo "<h2>Please login from below:</h2>";
+?>
+        
+        <form >
   <div class="imgcontainer">
-        <img src="img_avatar2.png" alt="Avatar" 
-  class="avatar">
+    <img src="img_avatar2.png" alt="Avatar" class="avatar">
   </div>
 
   <div class="container">
@@ -95,5 +95,5 @@ span.psw {
   </div>
 </form>
 
-</body>
+        </body>
 </html>
